@@ -1,0 +1,29 @@
+.parrafo{
+    color:red;/*Color de la letra*/
+ /*   background: gray; Color de fondo*/
+  /*  background-image: url('...');imagen de fondo*/
+ /*   height: 200px; Largo*/
+ /*a   width: 300px; ncho*/
+ /*   border:1px solid white; para bordes border: anchoborde tipoborde colorborde*/
+ /*   border-radius:2px; redondeado*/
+}
+
+
+
+.cajap div{
+    /*margin-left: 30px;/*margen izquierda*/
+   /* margin-right: 20px; /*margen derecha*/
+   /* margin-bottom: 10px; /*margen abajo*/
+   /* margin-top: 5px; /*margen arriba*/
+    
+}
+
+b,.cajap{
+    color:blue;
+}
+
+
+
+.parrafo b{
+    color:green;
+}

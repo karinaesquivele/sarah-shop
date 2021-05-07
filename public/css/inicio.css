@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/*-----------Carousel-Slider styles------*/
+
+
+.carousel-indicators li {
+    position: relative;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: hsla(0,0%,100%,.5);
+    border-radius: 100%;
+    
+}
+
+    .carousel-control-prev-icon,.carousel-control-next-icon {
+        background-image:none !important; 
+    }
+
+
+
+    span.carousel-control-prev-icon,span.carousel-control-next-icon {
+        font-size: 70px;
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    
+    .item2 p a i{
+       display: none;
+    }
+
+    .item3 h5{
+        font-family: 'Cinzel', serif;
+    }
+
+/*---buttons caption carousel*/
+
+    .item1 h5,.item2 h5{
+        color:black
+    }
+    .btn-outline-danger {
+        color: #7A043D !important;
+        background-color: white;
+        border-color: #7A043D;
+        border-radius: 0px;
+        padding: 1.2% 5%;
+        font-size: 16px;
+        font-weight: bolder;
+        margin-right: 5px;
+        border: 2px solid;
+    }
+        .btn-outline-danger:hover{
+            color: white !important;
+            background-color: #7A043D;
+            border-color: #7A043D;
+        }
+        i.fa.fa-long-arrow-right {
+            /*vertical-align: text-bottom;*/
+            margin-left: 5px;
+        }
+
+    .btn-danger {
+        color: #fff;
+        background-color: #7A043D;
+        border-color: #7A043D;
+        border-radius: 0px;
+        padding: 1.2% 5%;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+        .btn-danger:hover {
+            color: #fff;
+            background-color: #7A043D;
+            border-color: #7A043D;
+          
+        }
+
+        i.fa.fa-cart-plus {
+            margin-right: 8px;
+            vertical-align: text-bottom;
+        }
+    
+    .btn-white{
+        color: black !important;
+        background-color: white;
+        border-color: white;
+        border-radius: 0px;
+        padding: 1.2% 5%;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+    .btn-white:hover{
+        color: black !important;
+        background-color: white;
+        border-color: white;
+    }
+/*------fin carousel estilos---------------------*/
+
+/*---Categorias seccion estilos----*/
+
+
+    /*images*/
+    .contenedor img{
+        width: 100%;
+    }
+    .categorias{
+        padding: 25px 5px 25px 5px;
+    }
+
+    /*botones*/
+    .boton a{
+        padding:15px 35px;
+        border-radius: 0px;
+        font-weight: bolder;
+    }
+    .boton i{
+        display: none;
+    }
+
+
+/*Tendencias estilos-------*/
+section.tendencias {
+    background: #F2F2F2;
+    padding:80px;
+}
+
+.catalogo{
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.catalogo:hover{
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.encabezado {
+    padding-bottom: 25px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+.encabezado a{
+    text-decoration: none;
+    color: black;
+}
+.encabezado h5,h6 {
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.encabezado h6 {
+    font-weight: bolder;
+        font-size: 12px;
+}
+    .encabezado h6 i{
+        font-weight: bolder;
+        font-size: 16px;
+        vertical-align: text-bottom;
+        margin-right: 5px;
+    }
+
+    /*CARDS estilos*/
+.elementos .card:hover{
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition:0.5s;
+    transition: 0.5s;
+}
+    .elementos .card:hover{
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        -webkit-box-shadow: -1px -1px 38px -5px rgba(199,199,199,1);
+        -moz-box-shadow: -1px -1px 38px -5px rgba(199,199,199,1);
+        box-shadow: -1px -1px 38px -5px rgba(199,199,199,1);
+    }
+
+.elementos .card img:hover{
+    cursor: pointer;
+}
+    
+.elementos .col-6 {
+    padding: 0px;   
+}
+.elementos h5.card-title,.col-6{
+    font-weight: bolder;
+}
+
+.elementos h5.card-title:hover{
+    color: #7A043D;
+    cursor: pointer;
+}
+
+.elementos p.card-text:hover{
+    color: #7A043D;
+    cursor: pointer;
+}
+
+.elementos .row .col-6:nth-child(2){
+    text-align: right;
+}
+
+
+/*PARALLAX Estilos----*/
+
+.parallax{
+    background-image: url("../imagenes/inicio/parallax.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 70px;
+}
+
+.parallax h1{
+    color:white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.parax{
+    border:2px solid white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 12px 40px;
+    border-radius: 40px;
+    color:white;
+}
+    .parax:hover{
+        border:2px solid white;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        padding: 12px 40px;
+        border-radius: 40px;
+        color:black;
+        background:white;
+        text-decoration:none;
+    }
+
+/*Datos de envío estilos--*/
+.envio{
+    color:white;
+    background: #7A043D;
+    padding: 40px;
+}
+
+.envio h4{
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.envio i, h4 {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+/*------Responsive designs-----------------------------------------------*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    span.carousel-control-prev-icon,span.carousel-control-next-icon {
+        font-size: 30px;
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+    /*Categories style*/
+    .boton {
+        position: absolute;
+        top: 40%;
+        right: auto;
+        left: revert;
+        width: 94%;
+    }
+
+     /*botones*/
+     .boton a{
+        padding:10px 30px;
+        border-radius: 0px;
+        font-weight: bolder;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*Carousel captions*/
+    span.carousel-control-prev-icon,span.carousel-control-next-icon {
+        font-size: 30px;
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+    .item1 {
+        position: absolute;
+        right: 20%;
+        top: 25%;
+        left: 1%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .item1 h5 {
+        font-size: 50px;
+    }
+
+    .item2 {
+        top: 25%;
+    }
+    .item2 h5 {
+        font-size: 50px;
+    }
+
+    .item3 h5 {
+        font-size: 50px;
+    }
+
+    .item3 {
+        top: 25%;
+    }
+/*Categoria estilos*/
+    .boton {
+        position: absolute;
+        top: 40%;
+        right: auto;
+        left: revert;
+        width: 95%;
+
+    }
+
+     /*botones*/
+     .boton a{
+        padding:25px 55px;
+        border-radius: 0px;
+        font-weight: bolder;
+    }
+
+
+
+}
+/*---------Estilo responsivo especial--------------------------------------------------*/
+@media(max-width: 767.98px) { 
+.elementos .card{
+    margin-bottom: 20px;
+}
+
+}
+@media(max-width: 809.98px) { 
+/*Tendencias estilos-----------*/
+        /*ENCABEZADO*/
+    .encabezado h5 {
+        border-bottom: 2px solid #7A043D;
+        padding-bottom: 6px;
+    }
+}
+/*---------FIN estilo responsivo especial--------------------------------------------------*/
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /*Carousel captions*/
+    span.carousel-control-prev-icon,span.carousel-control-next-icon {
+        font-size: 50px;
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+    .item1 {
+        position: absolute;
+        right: 20%;
+        top: 25%;
+        left: 1%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .item1 h5 {
+        font-size: 50px;
+    }
+
+    .item2 {
+        top: 25%;
+    }
+    .item2 h5 {
+        font-size: 50px;
+    }
+
+    .item3 h5 {
+        font-size: 90px;
+    }
+    
+    .item3 {
+        top: 40%;
+    }
+
+    .item3 p {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    
+/*Categorias style*/
+    .boton {
+        position: absolute;
+        top: 40%;
+        right: auto;
+        left: revert;
+        width: 84%;
+
+    }
+
+     /*botones*/
+     .boton a{
+        padding:5px 25px;
+        border-radius: 0px;
+        font-weight: bolder;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /*Carousel captions*/
+    span.carousel-control-prev-icon,span.carousel-control-next-icon {
+        font-size: 70px;
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+    .item1 {
+        position: absolute;
+        right: 20%;
+        top: 40%;
+        left: -10%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .item1 h5 {
+        font-size: 60px;
+    }
+
+    .item2 {
+        top: 40%;
+    }
+    .item2 h5 {
+        font-size: 60px;
+    }
+
+    .item3 h5 {
+        font-size: 150px;
+    }
+    
+    .item3 {
+        top: 40%;
+    }
+
+    .item3 p {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+/*Categorias style*/
+    .boton {
+        position: absolute;
+        top: 40%;
+        right: auto;
+        left: revert;
+        width: 88%;
+   
+    }
+
+     /*botones*/
+     .boton a{
+        padding:10px 30px;
+        border-radius: 0px;
+        font-weight: bolder;
+    }
+
+      /*Tendencias estilos-----------*/
+        /*ENCABEZADO*/
+        .encabezado span {
+            border-bottom: 2px solid #7A043D;
+            padding-bottom: 5px;
+        }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    /*Carousel captions*/
+    span.carousel-control-prev-icon,span.carousel-control-next-icon {
+        font-size: 70px;
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    .item1 {
+        position: absolute;
+        right: 20%;
+        top: 40%;
+        left: -10%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .item1 h5 {
+        font-size: 60px;
+    }
+
+    .item2 {
+        top: 40%;
+    }
+    .item2 h5 {
+        font-size: 60px;
+    }
+
+    .item3 h5 {
+        font-size: 150px;
+    }
+    
+    .item3 {
+        top: 40%;
+    }
+
+    .item3 p {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+/*Categorias style*/
+    .boton {
+        position: absolute;
+        top: 40%;
+        right: auto;
+        left: revert;
+        width: 91%;
+ 
+    }
+
+    /*botones*/
+    .boton a{
+        padding:15px 35px;
+        border-radius: 0px;
+        font-weight: bolder;
+    }
+
+
+    /*Tendencias estilos-----------*/
+        /*ENCABEZADO*/
+    .encabezado span {
+        border-bottom: 2px solid #7A043D;
+        padding-bottom: 5px;
+    }
+
+}

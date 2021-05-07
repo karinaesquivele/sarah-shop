@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Cinzel:wght@700&display=swap');
+
+
+.navbar {
+    position: relative;
+    padding: 1rem 1rem;
+    background:#7A043D;
+    color: white;
+}
+
+.sarah{
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+    color: white !important;
+}

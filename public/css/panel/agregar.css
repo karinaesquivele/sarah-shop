@@ -1,0 +1,89 @@
+.row.titulo{
+    padding: 20px;
+}
+
+.titulo span{
+    border-bottom: 4px solid #7a043d;
+    padding-bottom: 12px;
+
+}
+/*aparecera la parte de abajo cuando el curso seleccione la casilla*/
+.form-group input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #ced4da !important;
+}
+.form-group  select{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #ced4da !important;
+}
+.form-control:focus{
+    color:#495057;
+    background-color: #fff;
+    border-color: 0;
+    outline: 0;
+    box-shadow: 0px 2px 0px 0px #7A043D;
+}
+
+select:focus{
+    color:#495057;
+    background-color: #fff;
+    border-color: 0;
+    outline: 0;
+    box-shadow: 0px 2px 0px 0px #7A043D !important;
+}
+
+select.custom-select:hover{
+    cursor: pointer;
+}
+
+/*color del boton de guardar*/
+.btn-secondary {
+    color: #fff;
+    background-color: #7A043D;
+    border-color: #7A043D;
+    border-radius: 0px;
+}
+/*boton de compra, para que no cambie de color y se quede en guinda*/
+.btn-secondary:hover {
+    color: #fff !important;
+    background-color: #7a043d !important;
+    border-color: #7a043d !important;
+    border-radius: 0px;
+}
+
+/*Alerta de estado*/
+.alerta{
+    z-index: 2;
+    position: fixed;
+    bottom:5px;
+    right: 20px;
+}
+
+/*Botón de salida a la tabla*/
+.salir{
+    z-index: 1;
+    position: fixed;
+    bottom:2px;
+    right: 20px;
+}
+
+.salir a{
+    border-radius: 100%;
+    padding: 10px;
+
+}
+.salir a:hover{
+    border-radius: 100%;
+    padding: 10px;
+    
+}
+
+i.fa.fa-sign-out {
+    vertical-align: middle;
+}

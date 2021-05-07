@@ -1,0 +1,54 @@
+/*Estilo de Titulo*/
+.row.titulo{
+    padding: 20px;
+}
+.titulo span{
+    border-bottom: 2px solid #7a043d;
+    padding-bottom: 10px;
+}
+
+.table-stripped{
+    border: #7a043d;
+}
+
+.botonnuevo{
+    padding-right: 50px;
+}
+
+/*Botón editar*/
+.btn-primary {
+    color: #7A043D;
+    background-color: #fff;
+    border-color: #7a043d;
+    border-radius: 0px;
+}
+
+.btn-primary:hover {
+    color: #7a043d !important;
+    background-color: #fff !important;
+    border-color: #7a043d !important;
+    border-radius: 0px;
+}
+
+/*Botone borrar*/
+.btn-secondary {
+    color: #fff;
+    background-color: #7A043D;
+    border-color: #7A043D;
+    border-radius: 0px;
+}
+
+.btn-secondary:hover {
+    color: #fff !important;
+    background-color: #7a043d !important;
+    border-color: #7a043d !important;
+    border-radius: 0px;
+}
+
+/*Alerta de estado*/
+.alerta{
+    z-index: 2;
+    position: fixed;
+    bottom:5px;
+    right: 20px;
+}

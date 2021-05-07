@@ -1,0 +1,74 @@
+/*Estilo de Titulo*/
+.row.titulo{
+    padding: 20px;
+}
+
+.titulo span{
+    border-bottom: 2px solid #7a043d;
+    padding-bottom: 10px;
+}
+/*Titulo 2 de la tabla compra*/
+.titulo2 span{
+    border-bottom: 2px solid #7a043d;
+    padding-bottom: 4px;
+}
+
+/*contenedor del formulario y tabla*/
+.row.datos{
+    padding: 40px;
+}
+
+.formulario input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #ced4da !important;
+}
+.formulario  select{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #ced4da !important;
+}
+.form-control:focus{
+    color:#495057;
+    background-color: #fff;
+    border-color: 0;
+    outline: 0;
+    box-shadow: 0px 2px 0px 0px #7A043D;
+}
+/*color del boton de compra*/
+.btn-secondary {
+    color: #fff;
+    background-color: #7A043D;
+    border-color: #7A043D;
+    border-radius: 0px;
+}
+/*boton de compra, para que no cambie de color y se quede en guinda*/
+.btn-secondary:hover {
+    color: #fff !important;
+    background-color: #7a043d !important;
+    border-color: #7a043d !important;
+    border-radius: 0px;
+}
+
+
+
+/*otr*/
+
+.mensaje{
+    padding:30px !important;
+}
+
+.mensaje h1{
+    padding:30px !important;
+    font-weight: bolder;
+    color: #7a043d;
+}
+
+.nombre_invalido,.apellido_invalido,.calle_invalido,.tel_invalido,.cp_invalido,.email_invalido{
+    color:rgb(80, 7, 7);
+    display: none;
+}

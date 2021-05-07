@@ -1,0 +1,168 @@
+/*ENCABEZADO estilos------*/
+
+.carro{
+    background: #F9F9F9;
+    color: #696969;
+    padding: 35px;
+    font-weight: bolder;
+}
+
+/*Estilo de tablas*/
+.tablas{
+    padding: 40px;
+}
+
+/*Estilos primer tabla*/
+.tabla1 img{
+    width: 90%;
+}
+
+.tabla1 td{
+        width: 10%;
+}
+.tabla1 tr td:last-child{
+    text-align: right;
+}
+
+.tabla1 input{
+    width: 60%
+}
+
+.btn-outline-dark{
+    border-radius: 0px;
+}
+.btn-outline-dark:hover{
+    border-radius: 0px;
+}
+
+/*Estilos botones*/
+.btn-outline-secondary{
+    color: #7A043D;
+    border: 1px solid #7A043D;
+    border-radius: 0px;
+}
+
+.btn-outline-secondary:hover{
+    background: #7A043D;
+    color: white;
+    border: 1px solid #7A043D;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: unset;
+    border-top: 1px solid #dee2e6;
+}
+
+.input-group-text a{
+    color:black;
+    text-decoration: none;
+}
+    .input-group-text a:hover{
+        color:#7A043D;
+        text-decoration: none;
+
+    }
+/*Estilo segunda tabla*/
+.tabla2 tr td:last-child{
+    text-align: right;
+}
+
+.tabla2 tr th:last-child{
+    text-align: right;
+}
+
+.btn-danger{
+    background: #7A043D;
+    border-radius: 0px;
+    font-weight: bolder;
+    color: white !important;
+}
+
+.btn-danger:hover{
+    background: #7A043D;
+    border-radius: 0px;
+    font-weight: bolder;
+    color: white !important;
+}
+.tabla2 a i{
+    /*vertical-align: text-top;*/
+    margin-left: 5px;
+    display: none;
+}
+
+/*estilos seccion vacio*/
+.vacio{
+    padding: 60px;
+}
+.vacio p{
+    color: gray;
+}
+
+.btn-light{
+    color: gray;
+    background: white;
+    border:2px solid gray;
+    border-radius: 0px;
+    padding:15px;
+}
+
+.btn-light:hover{
+    color: #7A043D;
+    background: white;
+    border:2px solid #7A043D;
+    border-radius: 0px;
+}
+
+.borrar{
+    cursor:pointer;
+    padding: 5px;
+    color: #7A043D;
+}
+
+.borrar:hover{
+    cursor:pointer;
+    color: #7A043D !important;
+}
+
+/*diseños responsivo*/
+
+@media (max-width: 576px) {
+    .tabla1 input{
+        width: 100%
+    }
+}
+
+@media (max-width: 415px) {
+    .tabla1 input{
+        width: 100%
+    }
+
+    .tablas{
+        padding: 10px;
+    }
+
+    .tabla1 tr th:first-child{
+        display: none;
+    }
+
+    
+    .tabla1 tr td:first-child{
+        display: none;
+    }
+
+    .tabla1 tr th:last-child{
+       padding:2px
+    }
+
+    .tabla1 tr td:last-child{
+        padding:2px
+    }
+    .tabla1 tr th{
+        padding:5px
+     }
+ 
+     .tabla1 tr td{
+         padding:5px
+     }
+}

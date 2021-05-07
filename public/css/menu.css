@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Cinzel:wght@700&display=swap');
+
+.fijo{
+    position:fixed;
+    z-index: 9999;
+}
+body{
+    background: #ffffff;
+}
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+body, html{ margin:0; padding:0;}
+.header{ 
+    border-top:1px solid white;
+    background:white; 
+    color:#333; 
+    height:0px; width:100%; 
+    text-align:center
+}
+.menu{ 
+    font-size: 16px;
+    font-weight: bold;
+    height:80px; width:100%; 
+    background:#333; 
+    color:white; text-align:center;
+    z-index:9999;
+}
+.escritorio,.movil{
+    width: 100%;
+}
+.navbar {
+    position: relative;
+    padding: 1rem 1rem;
+}
+
+.bg-white {
+    background-color: #ffffff!important;
+    border:1px solid gainsboro;
+}
+
+a.nav-link {
+    color: black;
+}
+a.nav-link.opc:hover {
+    color:#7A043D !important;
+}
+a.nav-link.opc2:hover {
+    color:#7A043D !important;
+}
+
+.sarah{
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+}
+    .sarah:hover{
+        color: black !important;
+    }
+.carrito{
+    position: absolute;
+    right: 20px;
+}
+.carrito:hover{
+    color:#7A043D !important;
+}
+.badge-pill {
+    padding-right: .4em !important;
+    padding-left: .4em !important;
+    border-radius: 10rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.wrapper{ 
+    height:auto; 
+    width:100%; 
+    padding-top:20px
+}
+ 
+.fixed{position:fixed; top:0}
+
+/*
+Menu responsive
+*/
+
+@media (min-width: 992px){
+    .movil{
+        display: none;
+    }
+    .escritorio{
+        display: block;
+    }
+}
+@media (max-width: 991px){
+    .movil{
+        display: block;
+    }
+    .escritorio{
+        display: none;
+    }
+}
+
+/*scroll */
+
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#7A043D;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+    right:20px;
+    z-index: 1;
+}
+
+/*Banner style*/
+.banner{
+    background: #7A043D;
+    color: white;
+    padding: 0.5%;
+}
+
+.banner p{
+    margin-top: 5%;
+}
+
+
+
+/*--footer---*/
+footer{
+    background: #212121;
+    color: white;
+    padding: 3%;
+}
+
+
+footer  ul{
+    list-style: none;
+    margin:revert;
+}
+.sarah2{
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+}
+    .sarah2:hover{
+        color: white;
+        cursor: pointer;
+    }
+
+footer a{
+    text-decoration:none;
+    color: white;
+}
+    footer  a:hover{
+        color: #7A043D;
+        text-decoration:none;
+    }
+

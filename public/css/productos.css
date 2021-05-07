@@ -1,0 +1,194 @@
+/*Estilos para el titulo----*/
+.titulo{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;   
+}
+
+/*Estilos para la barra de filtro*/
+.barrafiltro{
+    padding:40px
+}
+
+    /*Estilos para Botón del filtro*/
+    .btn-primary {
+        color: #000;
+        background: none;
+        border: 0px;
+    }
+
+        .btn-primary:hover {
+            color: #7A043D;
+            background: none;
+            border: 0px;
+        }
+
+        .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+            color: #7A043D;
+            background:none;
+            border: 0px;
+        }
+        .btn-primary.focus, .btn-primary:focus {
+            box-shadow: 0 0 0 0.2rem white;
+            border: 0px;
+        }
+        .btn-primary.active, .btn-primary:active {
+            box-shadow: 0 0 0 0.2rem white;
+            border: 0px;
+        }
+
+    /*Estilo de las opciones del filtro*/
+    select.form-control{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-radius: 0px;
+        border-bottom: 2px solid #ced4da !important;
+    }
+
+    .form-control:focus{
+        color:#495057;
+        background-color: #fff;
+        border-color: 0;
+        outline: 0;
+        box-shadow: 0px 2px 0px 0px #7A043D;
+    }
+    /*Categoria*/
+    .form-control.categoria{
+        list-style: none !important;
+        color:black;
+        background: transparent;
+    }
+
+    .form-control.categoria:hover{
+        color: #7A043D;
+        background: transparent;
+        list-style: none !important;
+
+    }
+
+  
+
+
+    /*Tallas*/
+    .form-control.talla{
+        list-style: none !important;
+        color:black;
+        background: transparent;
+        margin-top: 10px;
+    }
+
+    .form-control.talla:hover{
+        color: #7A043D;
+        background: transparent;
+        list-style: none !important;
+    }
+
+    /*Precio*/
+    .form-control.precio{
+        list-style: none !important;
+        color:black;
+        background: transparent;
+        margin-top: 10px;
+       
+    }
+
+    .form-control.precio:hover{
+        color: #7A043D;
+        background: transparent;
+        list-style: none !important;
+    }
+
+
+
+/*Estilos para el catálogo de productos*/
+.catalogo{
+    padding:40px;
+    margin-top: 5px;
+}
+    /*Estilo para las cards de productos*/
+    .card{
+        margin-bottom: 20px;
+    }
+
+    /*Botones para añadir al carrito*/
+    .contenedor1 {
+        position: absolute;
+        width: 100%;
+        right: 5px;
+        top: 4px;
+    }
+
+    a.card-title {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    a.card-title:hover{
+        color: #7A043D;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .btn-white{
+        color: black !important;
+        background-color: white;
+        border-color: white;
+        border-radius: 0px;
+        padding: 5px 10px 5px 10px;;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+    .btn-white:hover{
+        color: #7A043D !important;
+        background-color: white;
+        border-color: white;
+    }
+
+    .btn-danger{
+        margin-top: 15px;
+        color: white;
+        background-color: #7A043D;
+        border-color: #7A043D;
+        border-radius: 0px;
+        padding: 5px 10px 5px 10px;;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+    .btn-danger:hover{
+        color: white;
+        background-color: #7A043D;
+        border-color: #7A043D;
+        border-radius: 0px;
+        padding: 5px 10px 5px 10px;;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+
+/*Paginación*/
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+    margin-left: 30% !important;
+}
+.page-link{
+    color:black !important;
+    justify-content: center;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff !important;
+    background-color: #7A043D !important;
+    border-color: #7A043D !important;
+}
+
+.page-link:hover{
+    color:#7A043D !important;
+}
+
